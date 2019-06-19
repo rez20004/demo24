@@ -6,15 +6,12 @@
 </head>
 <body>
 
-<form class="" action=" [url 'index']" method="post">
+<form class="" action ="{url 'index'}" method="post">
 
     {% csrf_token %}
     {{myregistrationform.as_p}}
     <input type="submit" value="Register">
 
 </form>
-
-
-
 </body>
 </html>
